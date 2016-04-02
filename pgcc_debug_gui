@@ -1,0 +1,18 @@
+#!/bin/bash
+
+F=`readlink -f $0`
+DIR=`dirname $F`
+
+
+if [ "$1" == "-f" ]; then
+	UI_FILE=`readlink -f $2`
+	cd $DIR
+	nw --disable-setuid-sandbox ./bin/pgcc_debug_gui.nw -f $UI_FILE
+else
+#	PROG=`readlink -f $1`
+	cd $DIR
+	nw --disable-setuid-sandbox ./bin/pgcc_debug_gui.nw $PROG	
+fi
+
+
+

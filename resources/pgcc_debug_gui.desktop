@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=PGCC Debug GUI
+Exec=pgcc_debug_gui -f %F
+Icon=/usr/share/icons/hicolor/48x48/apps/pgcc_debug_gui-48x48.png
+Type=Application
+Categories=GNOME;GTK;Development;GUIDesigner;
+Terminal=false
+StartupNotify=true
+Comment=Graphical debugger for PGCC scripts
+MimeType=pgcc/debug;

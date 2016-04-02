@@ -1,0 +1,10 @@
+{
+  "name": "pgcc_debug_gui",
+  "main": "html/index.html",
+  "window": {
+    "toolbar": false,
+    "width": 800,
+    "height": 600
+  },
+  "chromium-args": "--disable-setuid-sandbox"
+}
